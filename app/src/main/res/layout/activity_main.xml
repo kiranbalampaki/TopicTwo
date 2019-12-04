@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnSum"
+            android:text="Sum"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnAreaOfCircle"
+            android:text="Area of a Circle"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnReverseNumber"
+            android:text="Reverse a Number"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnPalindrome"
+            android:text="Check Palindrome"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAutomorphic"
+            android:text="Automorphic"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnReverseString"
+            android:text="Reverse a string"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
